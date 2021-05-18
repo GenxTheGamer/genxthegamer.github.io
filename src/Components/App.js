@@ -1,12 +1,18 @@
 import React from "react";
-import Header from "./Header";
-import Links from "./Links";
+import Footer from "./Footer";
+import Home from "./Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Links />
+      <Router>
+        <div style={{ height: 60 }}></div>
+        <Switch>
+          <Route path="/" component={Home} />
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 };
