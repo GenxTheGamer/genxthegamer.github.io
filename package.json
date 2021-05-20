@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "url": "https://github.com/GenxTheGamer/",
+  "url": "https://github.com/GenxTheGamer/genxthegamer.github.io",
   "homepage" : "https://genxthegamer.github.io",
   "scripts": {
     "start": "react-scripts start",
